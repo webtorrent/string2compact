@@ -4,7 +4,7 @@
 
 [![browser support](https://ci.testling.com/feross/string2compact.png)](https://ci.testling.com/feross/string2compact)
 
-This module is the opposite of [compact2string](https://npmjs.org/package/compact2string). This works in the browser with [browserify](http://browserify.org/) and is used by [WebTorrent](http://webtorrent.io).
+This module is the opposite of [compact2string](https://npmjs.org/package/compact2string). This works in the browser with [browserify](http://browserify.org/) and is used by [WebTorrent](http://webtorrent.io), specifically [bittorrent-tracker](https://github.com/feross/bittorrent-tracker).
 
 ### install
 
