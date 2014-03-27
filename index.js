@@ -12,7 +12,7 @@ module.exports = exports = function (addrs) {
     }
 
     var ip = s[0]
-    var port = s[1]
+    var port = Number(s[1])
     var bytes = ip.split('.')
 
     buf[offset] = Number(bytes[0])
