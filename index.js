@@ -1,5 +1,4 @@
-
-module.exports = exports = function (addrs) {
+module.exports = function (addrs) {
   if (typeof addrs === 'string') {
     addrs = [ addrs ]
   }
@@ -26,11 +25,10 @@ module.exports = exports = function (addrs) {
   return buf
 }
 
-
 /**
  * Also support this usage:
  *   string2compact.multi([ '10.10.10.5:128', '100.56.58.99:28525' ])
  *
  * for parallelism with the `compact2string` module.
  */
-exports.multi = exports
+module.exports.multi = module.exports
