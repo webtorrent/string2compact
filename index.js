@@ -1,3 +1,5 @@
+var addrToIPPort = require('addr-to-ip-port')
+
 module.exports = function (addrs) {
   if (typeof addrs === 'string') {
     addrs = [ addrs ]
@@ -5,7 +7,7 @@ module.exports = function (addrs) {
   var buf = new Buffer(addrs.length * 6)
   addrs.forEach(function (addr, i) {
     var offset = i * 6
-    var s = addr.split(':')
+    var s = addrToIPPort(addr)
     if (s.length !== 2) {
       throw new Error('invalid address format, expecting: 10.10.10.5:128')
     }

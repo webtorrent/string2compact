@@ -6,7 +6,9 @@
   "bugs": {
     "url": "https://github.com/feross/string2compact/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "addr-to-ip-port": "^1.0.1"
+  },
   "devDependencies": {
     "compact2string": "^1.2.0",
     "tape": "2.x"
