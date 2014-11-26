@@ -26,7 +26,7 @@ test('multi', function (t) {
 test('multi IPv6', function (t) {
   // For this test, we assume that the compact2string implementation is good and just run
   // the conversion in reverse and see if we get the same thing back
-  var ips = [ '[2a03:2880:2110:9f07:face:b00c::1]:80', '[2a00:1450:4008:801::1011]:443' ]
+  var ips = [ '[2a03:2880:2110:9f07:face:b00c:0:1]:80', '[2a00:1450:4008:801:0:0:0:1011]:443' ]
   t.deepEqual(compact2string.multi6(string2compact(ips)), ips)
   t.end()
 })
