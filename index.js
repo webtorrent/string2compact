@@ -28,3 +28,4 @@ module.exports = function (addrs) {
  * for parallelism with the `compact2string` module.
  */
 module.exports.multi = module.exports
+module.exports.multi6 = module.exports
