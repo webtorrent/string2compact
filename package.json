@@ -11,7 +11,7 @@
     "ipaddr.js": "^0.1.5"
   },
   "devDependencies": {
-    "compact2string": "^1.2.0",
+    "compact2string": "^1.4.0",
     "tape": "2.x"
   },
   "homepage": "https://github.com/feross/string2compact",
