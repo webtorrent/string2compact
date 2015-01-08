@@ -1,8 +1,12 @@
-# string2compact [![build](https://img.shields.io/travis/feross/string2compact.svg)](https://travis-ci.org/feross/string2compact) [![npm](https://img.shields.io/npm/v/string2compact.svg)](https://npmjs.org/package/string2compact) [![npm downloads](https://img.shields.io/npm/dm/string2compact.svg)](https://npmjs.org/package/string2compact) [![gittip](https://img.shields.io/gittip/feross.svg)](https://www.gittip.com/feross/)
+# string2compact
+[![build](https://img.shields.io/travis/feross/string2compact.svg?style=flat)](https://travis-ci.org/feross/string2compact)
+[![npm](https://img.shields.io/npm/v/string2compact.svg?style=flat)](https://npmjs.org/package/string2compact)
+[![npm downloads](https://img.shields.io/npm/dm/string2compact.svg?style=flat)](https://npmjs.org/package/string2compact)
+[![gittip](https://img.shields.io/gittip/feross.svg?style=flat)](https://www.gittip.com/feross/)
 
 #### Convert 'hostname:port' strings to BitTorrent's compact ip/host binary returned by Trackers
 
-[![browser support](https://ci.testling.com/feross/string2compact.png)](https://ci.testling.com/feross/string2compact)
+[![Sauce Test Status](https://saucelabs.com/browser-matrix/string2compact.svg)](https://saucelabs.com/u/string2compact)
 
 This module is the opposite of [compact2string](https://npmjs.org/package/compact2string). It works in the browser with [browserify](http://browserify.org/). It is used by [WebTorrent](http://webtorrent.io), and more specifically, the [bittorrent-tracker](https://github.com/feross/bittorrent-tracker) and [bittorrent-dht](https://github.com/feross/bittorrent-dht) modules.
 
