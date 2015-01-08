@@ -13,4 +13,4 @@ browsers:
   - name: ipad
     version: 8.1..latest
   - name: android
-    version: 4.4..latest
+    version: 5.0..latest
