@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "addr-to-ip-port": "^1.0.1",
-    "ipaddr.js": "^0.1.5"
+    "ipaddr.js": "^1.0.1"
   },
   "devDependencies": {
     "compact2string": "^1.4.0",
