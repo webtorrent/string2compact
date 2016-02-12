@@ -1,8 +1,8 @@
 # string2compact
-[![build](https://img.shields.io/travis/feross/string2compact.svg?style=flat)](https://travis-ci.org/feross/string2compact)
-[![npm](https://img.shields.io/npm/v/string2compact.svg?style=flat)](https://npmjs.org/package/string2compact)
-[![npm downloads](https://img.shields.io/npm/dm/string2compact.svg?style=flat)](https://npmjs.org/package/string2compact)
-[![gittip](https://img.shields.io/gittip/feross.svg?style=flat)](https://www.gittip.com/feross/)
+[![build](https://img.shields.io/travis/feross/string2compact/master.svg)](https://travis-ci.org/feross/string2compact)
+[![npm](https://img.shields.io/npm/v/string2compact.svg)](https://npmjs.org/package/string2compact)
+[![npm downloads](https://img.shields.io/npm/dm/string2compact.svg)](https://npmjs.org/package/string2compact)
+[![gittip](https://img.shields.io/gittip/feross.svg)](https://www.gittip.com/feross/)
 
 #### Convert 'hostname:port' strings to BitTorrent's compact ip/host binary returned by Trackers
 
