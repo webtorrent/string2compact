@@ -11,9 +11,9 @@
     "ipaddr.js": "^1.0.1"
   },
   "devDependencies": {
+    "airtap": "0.0.4",
     "compact2string": "^1.4.0",
-    "tape": "^4.0.0",
-    "zuul": "^3.0.0"
+    "tape": "^4.0.0"
   },
   "homepage": "https://github.com/feross/string2compact",
   "keywords": [
@@ -36,8 +36,8 @@
   },
   "scripts": {
     "test": "npm run test-node && npm run test-browser",
-    "test-browser": "zuul -- test/*.js",
-    "test-browser-local": "zuul --local -- test/*.js",
+    "test-browser": "airtap -- test/*.js",
+    "test-browser-local": "airtap --local -- test/*.js",
     "test-node": "tape test/*.js"
   },
   "testling": {
