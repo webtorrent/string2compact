@@ -16,17 +16,16 @@
     "standard": "*",
     "tape": "^4.0.0"
   },
-  "homepage": "https://github.com/feross/string2compact",
   "keywords": [
-    "torrent",
-    "compact",
-    "tracker",
-    "bittorrent",
-    "peer-to-peer",
     "binary",
+    "bittorrent",
+    "compact",
     "convert",
     "hostname",
+    "peer-to-peer",
     "port",
+    "torrent",
+    "tracker",
     "webtorrent"
   ],
   "license": "MIT",
@@ -40,8 +39,5 @@
     "test-browser": "airtap -- test/*.js",
     "test-browser-local": "airtap --local -- test/*.js",
     "test-node": "tape test/*.js"
-  },
-  "testling": {
-    "files": "test/*.js"
   }
 }
