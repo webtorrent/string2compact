@@ -13,6 +13,7 @@
   "devDependencies": {
     "airtap": "0.0.4",
     "compact2string": "^1.4.0",
+    "standard": "*",
     "tape": "^4.0.0"
   },
   "homepage": "https://github.com/feross/string2compact",
@@ -35,7 +36,7 @@
     "url": "git://github.com/feross/string2compact.git"
   },
   "scripts": {
-    "test": "npm run test-node && npm run test-browser",
+    "test": "standard && npm run test-node && npm run test-browser",
     "test-browser": "airtap -- test/*.js",
     "test-browser-local": "airtap --local -- test/*.js",
     "test-node": "tape test/*.js"
