@@ -14,7 +14,7 @@ module.exports = function (addrs) {
 
     var ip = ipaddr.parse(s[0])
     var ipBuf = Buffer.from(ip.toByteArray())
-    var port = Number(s[1])
+    var port = s[1]
     var portBuf = Buffer.allocUnsafe(2)
     portBuf.writeUInt16BE(port, 0)
     return Buffer.concat([ipBuf, portBuf])
