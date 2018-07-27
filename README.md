@@ -1,7 +1,7 @@
 # string2compact [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
 
-[travis-image]: https://img.shields.io/travis/feross/string2compact/master.svg
-[travis-url]: https://travis-ci.org/feross/string2compact
+[travis-image]: https://img.shields.io/travis/webtorrent/string2compact/master.svg
+[travis-url]: https://travis-ci.org/webtorrent/string2compact
 [npm-image]: https://img.shields.io/npm/v/string2compact.svg
 [npm-url]: https://npmjs.org/package/string2compact
 [downloads-image]: https://img.shields.io/npm/dm/string2compact.svg
@@ -11,7 +11,7 @@
 
 #### Convert 'hostname:port' strings to BitTorrent's compact ip/host binary returned by Trackers
 
-This module is the opposite of [compact2string](https://npmjs.org/package/compact2string). It works in the browser with [browserify](http://browserify.org/). It is used by [WebTorrent](http://webtorrent.io), and more specifically, the [bittorrent-tracker](https://github.com/feross/bittorrent-tracker) and [bittorrent-dht](https://github.com/feross/bittorrent-dht) modules.
+This module is the opposite of [compact2string](https://npmjs.org/package/compact2string). It works in the browser with [browserify](http://browserify.org/). It is used by [WebTorrent](http://webtorrent.io), and more specifically, the [bittorrent-tracker](https://github.com/webtorrent/bittorrent-tracker) and [bittorrent-dht](https://github.com/webtorrent/bittorrent-dht) modules.
 
 ### install
 
@@ -38,4 +38,4 @@ console.log(compacts) // new Buffer('0A0A0A05008064383a636f6d', 'hex')
 
 ### license
 
-MIT. Copyright (c) [Feross Aboukhadijeh](http://feross.org).
+MIT. Copyright (c) [Feross Aboukhadijeh](https://feross.org) and [WebTorrent, LLC](https://webtorrent.io).
