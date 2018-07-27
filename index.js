@@ -1,21 +1,21 @@
-var addrToIPPort = require('addr-to-ip-port')
-var ipaddr = require('ipaddr.js')
+const addrToIPPort = require('addr-to-ip-port')
+const ipaddr = require('ipaddr.js')
 
-module.exports = function (addrs) {
+module.exports = addrs => {
   if (typeof addrs === 'string') {
     addrs = [ addrs ]
   }
 
-  return Buffer.concat(addrs.map(function (addr) {
-    var s = addrToIPPort(addr)
+  return Buffer.concat(addrs.map(addr => {
+    const s = addrToIPPort(addr)
     if (s.length !== 2) {
       throw new Error('invalid address format, expecting: 10.10.10.5:128')
     }
 
-    var ip = ipaddr.parse(s[0])
-    var ipBuf = Buffer.from(ip.toByteArray())
-    var port = s[1]
-    var portBuf = Buffer.allocUnsafe(2)
+    const ip = ipaddr.parse(s[0])
+    const ipBuf = Buffer.from(ip.toByteArray())
+    const port = s[1]
+    const portBuf = Buffer.allocUnsafe(2)
     portBuf.writeUInt16BE(port, 0)
     return Buffer.concat([ipBuf, portBuf])
   }))
