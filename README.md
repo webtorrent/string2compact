@@ -11,8 +11,6 @@
 
 #### Convert 'hostname:port' strings to BitTorrent's compact ip/host binary returned by Trackers
 
-[![Sauce Test Status](https://saucelabs.com/browser-matrix/string2compact.svg)](https://saucelabs.com/u/string2compact)
-
 This module is the opposite of [compact2string](https://npmjs.org/package/compact2string). It works in the browser with [browserify](http://browserify.org/). It is used by [WebTorrent](http://webtorrent.io), and more specifically, the [bittorrent-tracker](https://github.com/feross/bittorrent-tracker) and [bittorrent-dht](https://github.com/feross/bittorrent-dht) modules.
 
 ### install
