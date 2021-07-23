@@ -15,7 +15,9 @@
     "ipaddr.js": "^1.0.1"
   },
   "devDependencies": {
+    "@webtorrent/semantic-release-config": "1.0.5",
     "compact2string": "^1.4.0",
+    "semantic-release": "17.4.4",
     "standard": "*",
     "tape": "^4.0.0"
   },
@@ -39,5 +41,13 @@
   },
   "scripts": {
     "test": "standard && tape test/*.js"
+  },
+  "renovate": {
+    "extends": [
+      "github>webtorrent/renovate-config"
+    ]
+  },
+  "release": {
+    "extends": "@webtorrent/semantic-release-config"
   }
 }
