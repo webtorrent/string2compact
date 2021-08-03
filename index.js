@@ -3,7 +3,7 @@ const ipaddr = require('ipaddr.js')
 
 module.exports = addrs => {
   if (typeof addrs === 'string') {
-    addrs = [ addrs ]
+    addrs = [addrs]
   }
 
   return Buffer.concat(addrs.map(addr => {
