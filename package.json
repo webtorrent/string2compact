@@ -16,10 +16,10 @@
   },
   "devDependencies": {
     "@webtorrent/semantic-release-config": "1.0.5",
-    "compact2string": "^1.4.0",
+    "compact2string": "1.4.1",
     "semantic-release": "17.4.4",
     "standard": "*",
-    "tape": "^4.0.0"
+    "tape": "4.14.0"
   },
   "keywords": [
     "binary",
