@@ -1,7 +1,7 @@
-const addrToIPPort = require('addr-to-ip-port')
-const ipaddr = require('ipaddr.js')
+import addrToIPPort from 'addr-to-ip-port'
+import ipaddr from 'ipaddr.js'
 
-module.exports = addrs => {
+const addrs = addrs => {
   if (typeof addrs === 'string') {
     addrs = [addrs]
   }
@@ -27,5 +27,5 @@ module.exports = addrs => {
  *
  * for parallelism with the `compact2string` module.
  */
-module.exports.multi = module.exports
-module.exports.multi6 = module.exports
+export default addrs
+export { addrs as multi, addrs as multi6 }
