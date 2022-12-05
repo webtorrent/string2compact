@@ -1,7 +1,7 @@
-const compact2string = require('compact2string')
-const test = require('tape')
+import compact2string from 'compact2string'
+import test from 'tape'
 
-const string2compact = require('../')
+import string2compact from '../index.js'
 
 test('single', t => {
   const compact = string2compact('10.10.10.5:65408')

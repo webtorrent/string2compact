@@ -10,6 +10,7 @@
   "bugs": {
     "url": "https://github.com/webtorrent/string2compact/issues"
   },
+  "type": "module",
   "dependencies": {
     "addr-to-ip-port": "^1.0.1",
     "ipaddr.js": "^2.0.0"
@@ -34,7 +35,12 @@
     "webtorrent"
   ],
   "license": "MIT",
-  "main": "index.js",
+  "engines": {
+    "node": ">=12.20.0"
+  },
+  "exports": {
+    "import": "./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/webtorrent/string2compact.git"
