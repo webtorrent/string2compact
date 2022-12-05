@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/webtorrent/string2compact/compare/v1.3.2...v2.0.0) (2022-12-05)
+
+
+### Features
+
+* esm ([#33](https://github.com/webtorrent/string2compact/issues/33)) ([64f6d68](https://github.com/webtorrent/string2compact/commit/64f6d68f798fc052752a2ba2272002260d37cfdf))
+
+
+### BREAKING CHANGES
+
+* ESM only
+
 ## [1.3.2](https://github.com/webtorrent/string2compact/compare/v1.3.1...v1.3.2) (2021-08-04)
 
 
