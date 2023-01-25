@@ -12,7 +12,7 @@
   },
   "type": "module",
   "dependencies": {
-    "addr-to-ip-port": "^1.0.1",
+    "addr-to-ip-port": "^2.0.0",
     "ipaddr.js": "^2.0.0"
   },
   "devDependencies": {
