@@ -1,7 +1,7 @@
 {
   "name": "string2compact",
   "description": "Convert 'hostname:port' strings to BitTorrent's compact ip/host binary returned by Trackers",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": {
     "name": "WebTorrent, LLC",
     "email": "feross@webtorrent.io",

@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/webtorrent/string2compact/compare/v2.0.0...v2.0.1) (2023-01-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency addr-to-ip-port to v2 ([#34](https://github.com/webtorrent/string2compact/issues/34)) ([935bae0](https://github.com/webtorrent/string2compact/commit/935bae0deaa136493a9401f0337b53eab43d734a))
+
 # [2.0.0](https://github.com/webtorrent/string2compact/compare/v1.3.2...v2.0.0) (2022-12-05)
 
 
