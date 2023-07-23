@@ -13,14 +13,14 @@
   "type": "module",
   "dependencies": {
     "addr-to-ip-port": "^2.0.0",
-    "ipaddr.js": "^2.0.0"
+    "ipaddr.js": "2.0.1"
   },
   "devDependencies": {
     "@webtorrent/semantic-release-config": "1.0.9",
     "compact2string": "1.4.1",
     "semantic-release": "21.0.7",
     "standard": "*",
-    "tape": "5.6.3"
+    "tape": "5.6.6"
   },
   "keywords": [
     "binary",
