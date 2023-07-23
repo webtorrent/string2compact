@@ -9,7 +9,7 @@ const addrs = addrs => {
   return Buffer.concat(addrs.map(addr => {
     const s = addrToIPPort(addr)
     if (s.length !== 2) {
-      throw new Error('invalid address format, expecting: 10.10.10.5:128')
+      throw new Error('invalid address format, expecting: [IP]:[PORT]')
     }
 
     const ip = ipaddr.parse(s[0])
