@@ -20,7 +20,7 @@
     "compact2string": "1.4.1",
     "semantic-release": "21.1.2",
     "standard": "*",
-    "tape": "5.7.3"
+    "tape": "5.7.4"
   },
   "keywords": [
     "binary",
