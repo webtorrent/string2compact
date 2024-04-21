@@ -13,7 +13,7 @@
   "type": "module",
   "dependencies": {
     "addr-to-ip-port": "^2.0.0",
-    "ipaddr.js": "2.0.1"
+    "ipaddr.js": "2.2.0"
   },
   "devDependencies": {
     "@webtorrent/semantic-release-config": "1.0.10",
