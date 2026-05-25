@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/webtorrent/string2compact/compare/v2.0.1...v2.0.2) (2026-05-25)
+
+
+### Bug Fixes
+
+* **release:** update release.yml to include necessary permissions ([54a36f3](https://github.com/webtorrent/string2compact/commit/54a36f37e3ff366c9b2d7484e81f8c648a2e1b8b))
+
 ## [2.0.1](https://github.com/webtorrent/string2compact/compare/v2.0.0...v2.0.1) (2023-01-25)
 
 
